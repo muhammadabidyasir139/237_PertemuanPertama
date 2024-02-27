@@ -25,6 +25,9 @@ int main() //jangan pernah dihapus
     cout << "masukan panjang = ";
     cin >> panjang;
     cout << "masukan lebar = ";
+    cin >> lebar;
+    luas = panjang * lebar;
+    cout << "Luasnya = " << luas;
      
 }
 
