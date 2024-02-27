@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() //jangan pernah dihapus
+{
+    //Begin
+    //numeric nAlas, nTinggi, nLuas
+    //display "masukan Alas ="
+    //Accept nAlas
+    //Display 'Masukan Tinggi = '
+    //Accept nTinggi
+    //compute nLuas = nAlas*nTinggi/2
+    // Display 'Luasnya = ' + nLuas
+    // End
+   
+    float nAlas, nTinggi, nLuas;
+    cout << "masukan alas = ";
+    cin >> nAlas;
+    cout << "masukan Tinggi = ";
+    cin >> nTinggi;
+    nLuas = nAlas * nTinggi / 2;
+    cout << "Luasnya = " << nLuas;
+     
+}
+
