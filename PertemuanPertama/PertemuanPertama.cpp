@@ -20,6 +20,8 @@ int main() //jangan pernah dihapus
     cin >> nTinggi;
     nLuas = nAlas * nTinggi / 2;
     cout << "Luasnya = " << nLuas;
+
+    int panjang, lebar, luas;
      
 }
 
